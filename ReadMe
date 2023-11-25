@@ -1,0 +1,22 @@
+
+Penetration Testing using DDOS
+
+ Be careful witht the target that you choose here. In this case, I chose the IP-address of my router at home(fake one; target). You can also choose your home server, your printer or maybe even your own website. If you don’t know your IP-address, you can use your command line and ping the domain to get it. As a fake IP-address I chose a random but still valid address. Last but not least, I decided to attack the port 80, which is HTTP. If you want to shut down a specific service, you need to know which port it is operating at. Check out this link, for a detailed list. The next thing we need to do is to implement the actual attacking function. 
+
+
+
+be use to use anaconda prompt 
+- jupyter lab
+if it still not working use brute force
+- anaconda-navigator
+
+
+python -m venv nameOfVirtualEnv
+- .\envName\Scripts\activate
+- deactivate 
+
+pip install ipykernel => link vene to jupyter, allow the use VENV in J NoteBook
+
+python -m ipykernel install --name=
+jupyter kernelspec list
+jupyter kernelspec uninstall
